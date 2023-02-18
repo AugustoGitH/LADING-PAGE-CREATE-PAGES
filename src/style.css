@@ -33,6 +33,7 @@ header{
     width: 1100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #button_bar-menu--header{
     all:unset;
@@ -43,6 +44,7 @@ header{
     display: flex;
     align-items: center;
 }
+
 .header-content nav a{
     margin-right: 2rem;
     font-size: 1.1rem;
@@ -243,13 +245,15 @@ header{
     background-color: #f6f6f4;
 }
 .plans-content{
+    display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .plans-content .cards_values-plans{
     margin-top: 4rem;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
